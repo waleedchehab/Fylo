@@ -1,0 +1,49 @@
+@media (max-width:375px){
+    .logo{
+        width: 60px;
+    }
+    nav ul{
+        gap: 20px;
+    }
+    .title{
+        text-align: center;
+    }
+    section .container{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    section form{
+        flex-wrap: wrap;
+    }
+    section form input{
+        width: 100%;
+    }
+    button{
+        width: 100%;
+    }
+
+    .two::before{
+        content: url(../images/bg-curve-mobile.svg);
+        top: -53px;
+    }
+    .two .test{
+        text-align: left;
+        margin: 0 20px;
+    }
+
+    .prefooter .container{
+        flex-direction: column;
+    }
+    .prefooter .sign{
+        text-align: center;
+    }
+
+    footer .columns{
+        flex-direction: column;
+        justify-content: center;
+        gap: 30px;
+    }
+    .social{
+        margin: 0 auto;
+    }
+}
