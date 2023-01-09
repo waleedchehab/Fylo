@@ -149,6 +149,7 @@ button:hover{
     padding: 20px;
     border-radius: 5px;
     box-shadow: 0 0 10px rgba(1, 1, 1, 0.2);
+    width: 50%;
 }
 .two .test p{
     font-size: .75rem;
